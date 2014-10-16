@@ -1,0 +1,56 @@
+- Colocar "LOad More" na tela de chamados fechados. Inicia com 25 chamados carregados. Depois muda o limit
+
+- "Abrir Chamado em nome", só para analistas" Será uma nova página.
+
+- Programar Edição do chamado
+
+
+*** Documentação de Novas Janelas (Melhorias) ***
+
+Caso: Gerenciamento de Grupos e Solicitações.
+
+Titulo do Menu: Gerenciar Grupos e Solicitações
+
+Nível de Permissão do Menu: Nível 3 (Gestores e Cordenadores)
+
+Titulo da Janela: Gerenciamento de Grupos e Solicitações (GGS).
+
+Quantidade de Abas: 5
+
+            Titulo da Aba 1: Cadastrar Grupos
+
+            Titulo da Aba 2: Gerenciar Grupos
+
+            Titulo da Aba 3: Cadastrar Solicitações
+
+            Titulo da Aba 4: Gerenciar Solicitações
+
+            Titulo da Aba 5: Permissões de Grupos
+
+
+- Funcionalidades da Aba 1:
+    { - Cadastra um novo grupo, conter campo para o nome do grupo, ao salvar será gravado 1 registro para cada empresa (Vinculando o ID da empresa)
+       - Na mesma tabela onde o grupo é cadastrado, deverá conter uma coluna da permissão ( 1  e  0)
+       - Na página será perguntado se inicialmente o novo grupo entra liberado ou negado para todas as empresas. (Evita trabalho de ir na outra aba de permissão para liberar o grupo)
+    }
+
+    Menus da janela:
+    {       - Cadastrar Grupos de Chamados
+             - Gerenciamento de Grupos
+             - Cadastrar Solicitações de Chamados
+             - Gerenciamento de Solicitações
+
+    }
+
+
+
+    Cadastro de Grupos
+
+                Nome do Novo Grupo:
+
+                Cadastrar:
+                * Automaticamente ele vai cadastrar (1 registro) para cada ID de empresa do usuário que está cadastrando.
+
+                Aba Permissão vai selecionar a empresa e listar todos os grupos para essa empresa,
+
+}
